@@ -297,6 +297,8 @@
  * Check bat voltage@boot, if too low back to sleep. This to prevent a bootloop 
  */
 #include <SD.h>
+
+#include <SD.h>
 #include <sd_defines.h>
 #include <sd_diskio.h>
 #include <ETH.h>
