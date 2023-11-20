@@ -170,13 +170,10 @@ void Sleep_screen(int choice){
       display.drawExampleBitmap(OneHundred_logo_zwart, 195, 0, 48, 48, GxEPD_BLACK);
     if(RTC_Board_Logo==12)
       display.drawExampleBitmap(FutureFly_logo_zwart, 195, 0, 48, 48, GxEPD_BLACK);
-<<<<<<< Updated upstream
-=======
     if(RTC_Board_Logo==13)
       display.drawExampleBitmap(ESP_GPS_logo, 195, 0, 48, 48, GxEPD_BLACK);
     if(RTC_Board_Logo==14)
       display.drawExampleBitmap(OZboard_logo-zwart, 195, 0, 48, 48, GxEPD_BLACK);
->>>>>>> Stashed changes
     // Zeil Logo's:
     if(RTC_Sail_Logo==1)//Logo's Simon Dijkstra
       display.drawExampleBitmap(GAsails_logoS_zwart, 195, 50, 48, 48, GxEPD_BLACK);
@@ -196,10 +193,10 @@ void Sleep_screen(int choice){
       display.drawExampleBitmap(Simmer_logoS_zwart, 195, 50, 48, 48, GxEPD_BLACK);
     if(RTC_Sail_Logo==9)
       display.drawExampleBitmap(Naish_logoS_zwart, 195, 50, 48, 48, GxEPD_BLACK); 
-<<<<<<< Updated upstream
     if(RTC_Sail_Logo==10) //Severne as Sail logo !!! 
       display.drawExampleBitmap(Severne_logoS_zwart, 195, 50, 48, 48, GxEPD_BLACK);
-
+    if(RTC_Sail_Logo==11) 
+      display.drawExampleBitmap(S2Maui_logo_zwart, 195, 50, 48, 48, GxEPD_BLACK);
       display.setFont(&SF_Distant_Galaxy7pt7b);//font ??
       display.setCursor(col1,105);
 
@@ -207,14 +204,9 @@ void Sleep_screen(int choice){
       display.print("  "); display.print(SW_version);
     
       display.setCursor(col1,121);
-=======
-    if(RTC_Sail_Logo==10)//Severne as Sail logo !!! 
-      display.drawExampleBitmap(Severne_logoS_zwart, 195, 50, 48, 48, GxEPD_BLACK);
-    if(RTC_Sail_Logo==11) 
-      display.drawExampleBitmap(S2Maui_logo_zwart, 195, 50, 48, 48, GxEPD_BLACK);
+
     
       display.setCursor(col1,105); // was 121
->>>>>>> Stashed changes
       display.setFont(&SF_Distant_Galaxy9pt7b);
       display.print(RTC_Sleep_txt);
     
